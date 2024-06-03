@@ -1,0 +1,19 @@
+<!-- <div class="list" [ngStyle]="{'background': data.color}">
+    <h2 class="list-tittle">{{data.tittle}}</h2>
+</div> -->
+<div class="list" >
+    <h2 class="list-tittle" [ngStyle]="{'background': data.color}">{{data.tittle}}</h2>
+    <form class="add-task-form" [formGroup]="taskForm">
+        <input type="text" formControlName="task">
+        <button mat-mini-fab type="submit" disableRipple (click)="AddNewTask()"><mat-icon>done</mat-icon></button>
+    </form>
+
+    
+    <div class="task-list">
+        <ng-template #container></ng-template>
+        <!-- <app-task-card></app-task-card>
+        <app-task-card></app-task-card>
+        <app-task-card></app-task-card> -->
+    </div>
+    
+</div>

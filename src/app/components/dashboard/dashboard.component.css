@@ -1,0 +1,16 @@
+.dashboar-content{
+    display: flex;
+    justify-content: start;
+    padding-top: 30px;
+    width: 100vw;
+    height: 100vh;
+    background: #F5F9FF;
+    overflow-y: auto;
+    scrollbar-gutter: stable both-edges;
+}
+
+.add-column-button{
+    width: 400px;
+    height: 550px;
+    background: #fff;
+  }

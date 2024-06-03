@@ -1,0 +1,39 @@
+.list{
+    width: 400px;
+    height: 550px;
+    margin-right: 10px;
+}
+
+.list-tittle{
+    text-align: center;
+    padding: 10px 0;
+}
+
+.add-task-form{
+    display: flex;
+}
+
+.add-task-form input{
+    border: none;
+    width: 365px;
+    height: 30px;
+    padding: 5px 5px;
+    margin-bottom: 15px;
+}
+
+.add-task-form button{
+    border: none;
+    background: #fff;
+    cursor: pointer;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.add-task-form:hover{
+    border-radius: 0;
+}
+
+.task-list{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,18 @@
+<div class="button-container">
+    <button 
+    mat-button color="primary" 
+    (click)="toggleForm()"
+    class="add-column-button"
+    *ngIf="!isFormVisible"
+    disableRipple
+    >
+    <mat-icon>add</mat-icon>
+</button>
+
+<form *ngIf="isFormVisible" [formGroup]="listForm" (submit)="onSubmit()">
+    <label for="name">Tittle: </label>
+    <input type="text" formControlName="tittle">
+    <input type="color" formControlName="color" value="#ffffff">
+    <button type="submit">Submit</button>
+</form>
+</div>

@@ -1,0 +1,16 @@
+.add-column-button{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+  }
+
+.button-container{
+  width: 400px;
+  height: 100px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+ 

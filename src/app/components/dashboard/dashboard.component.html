@@ -1,0 +1,9 @@
+<app-navigation></app-navigation>
+  
+<div class="dashboar-content">   
+    <ng-template #container>
+        <app-list></app-list>
+    </ng-template>
+    
+    <app-button-to-form (addList) = "AddNewList($event)"></app-button-to-form>
+</div>    
